@@ -1,4 +1,5 @@
 // Edited in feature-math branch
+#include "expression_parser.h"
 #include <iostream>
 #include "calculator.h"
 
@@ -11,6 +12,8 @@ int main() {
     std::cout << "GCD: " << gcd(48, 18) << std::endl;
     std::cout << "LCM: " << lcm(12, 15) << std::endl;
     std::cout << "Random (1-10): " << randomInRange(1, 10) << std::endl;
+    std::string expr = "3 + 4 * (2 - 1) / 5";
+    std::cout << "Expression Result of '" << expr << "': " << evaluateExpression(expr) << std::endl;
 
     return 0;
 }

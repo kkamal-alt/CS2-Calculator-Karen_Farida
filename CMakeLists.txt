@@ -7,5 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 add_executable(calculator
     calculator.cpp
     test.cpp
+    expression_parser.cpp
 )
+
 
