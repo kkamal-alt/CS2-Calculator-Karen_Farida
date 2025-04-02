@@ -1,5 +1,13 @@
-# CS2 Calculator
+# CS2 Calculator – Karen Farida
 
-This is a simple C++ calculator library that performs basic mathematical operations like add, subtract, multiply, divide, factorial, GCD, LCM, and random number generation. Built with C++, managed using Git, and compiled using CMake.
+This project is a simple C++ calculator library that performs various mathematical operations. It is organized across multiple files, built using CMake, and tracked with Git.
+
+## 📁 Features
+
+- Addition, Subtraction, Multiplication, Division
+- Factorial
+- GCD and LCM
+- Random number generation within a range
+- **Bonus:** Expression evaluation using the Shunting Yard Algorithm
 
 
